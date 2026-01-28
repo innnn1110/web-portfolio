@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jennifer Inn — Portfolio</title>
+  <meta name="description" content="Gameplay / Software Engineering portfolio: projects, resume, contact." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jennifer Inn — Portfolio" />
+  <meta property="og:description" content="Projects, resume, and contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="icon" href="data:,">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="./">Jennifer Inn</a>
+    <nav class="nav">
+      <a href="./projects/">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+      <button class="btn btn-ghost" id="themeToggle" aria-label="Toggle theme">☾</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Hi, I’m <span class="accent">Jennifer</span>.</h1>
+        <p class="lead">
+          CS + Game Design student. I build gameplay systems and C++ projects.
+          I care about performance, clarity, and shippable tools.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn" href="./projects/">View Projects</a>
+          <a class="btn btn-ghost" href="#contact">Contact</a>
+        </div>
+
+        <div class="chip-row">
+          <span class="chip">C++</span>
+          <span class="chip">Unreal Engine</span>
+          <span class="chip">Gameplay</span>
+          <span class="chip">Tools</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h2>Quick Links</h2>
+        <ul class="clean">
+          <li><a href="https://github.com/innnn1110" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/jennifer-inn-69642b238" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="#resume">Resume</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <a class="small-link" href="./projects/">See all →</a>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <h3>C++ Custom 2D Engine</h3>
+          <p>Custom engine features: OpenGL, tilemap, XML parsing, performance fixes, tooling.</p>
+          <div class="meta">C++ · Engine · Tools · Team</div>
+          <a class="btn btn-sm" href="./projects/tileverse.html">Read case study</a>
+        </article>
+
+        <article class="card">
+          <h3>UE5 Game Team Project</h3>
+          <p>Player-side gameplay programming: dash/parry/block, health/flow system.</p>
+          <div class="meta">UE5 · C++ · Team</div>
+          <a class="btn btn-sm" href="./projects/ue5-bdbb.html">Read case study</a>
+        </article>
+
+        <article class="card">
+          <h3>Profiler / Debug Tools</h3>
+          <p>Instrumentation + CSV reporting, debugging workflows, performance investigation.</p>
+          <div class="meta">C++ · MSVC · Debugging</div>
+          <a class="btn btn-sm" href="./projects/">See details</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="resume">
+      <h2>Resume</h2>
+      <div class="card">
+        <!-- <p>
+          Keep this simple at first: link a PDF (Google Drive / GitHub release / assets).
+        </p> -->
+        <div class="cta-row">
+          <a class="btn" href="./resume.pdf" target="_blank" rel="noreferrer">Open Resume (PDF)</a>
+          <a class="btn btn-ghost" href="./resume.pdf" download>Download</a>
+        </div>
+        <!-- <p class="note">
+          Tip: later you can auto-generate this PDF from your master resume pipeline.
+        </p> -->
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Email: <a href="jennifer.inn.sh@email.com">jennifer.inn.sh@email.com</a></p>
+        <p>Location: Seattle area / Remote</p>
+        <!-- <p class="note">Replace this with a short “what roles I’m looking for” line.</p> -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Jennifer Inn</span>
+      <span class="sep">·</span>
+      <a href="./projects/">Projects</a>
+      <span class="sep">·</span>
+      <a href="https://github.com/innnn1110" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
